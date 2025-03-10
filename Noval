@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permintaan Maaf</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 20%;
+        }
+
+        .lampu {
+            font-size: 24px;
+            font-weight: bold;
+            animation: berkedip 1s infinite alternate;
+        }
+
+        @keyframes berkedip {
+            0% { color: white; text-shadow: 0 0 10px yellow, 0 0 20px orange, 0 0 30px red; }
+            100% { color: red; text-shadow: 0 0 10px red, 0 0 20px darkred, 0 0 30px black; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="lampu">Saya Noval minta maaf atas kesalahan yang dibuat 😔</h1>
+
+</body>
+</html>
